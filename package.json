@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postinstall": "ng build"
+    "postinstall": "ng build",
+    "deploy": "ng build && firebase deploy"
   },
   "engines": {
     "node": "v18.15.0",
